@@ -1,0 +1,314 @@
+/* ===== VARIABLES ===== */
+
+:root {
+  --font-title: 'Quantico', sans-serif;
+  --font-text: 'Tomorrow', sans-serif;
+  --font-tech: 'Anek Latin', sans-serif;
+  --font-link: 'Geo', sans-serif;
+  --font-contact: 'Kode Mono', monospace;
+
+  --color-bg: #292d34;
+  --color-bg-mobile: #31363f;
+  --color-text: #ffffff;
+  --color-primary: #67c9dd;
+  --color-chip: #2a2f36;
+  --color-light: rgb(227, 225, 225);
+  --color-dark: #31363f;
+  --color-border: rgba(255, 255, 255, 0.323);
+}
+
+/* ===== BASE ===== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  max-width: 800px;
+  margin: 70px auto 0;
+  padding: 0 20px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+/* ===== HEADER ===== */
+
+header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.contenido-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.foto_ivan {
+  width: 100%;
+  max-width: 135px;
+  height: auto;
+  border-radius: 30%;
+  object-fit: cover;
+}
+
+.contactos,
+.nombre {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactos {
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.nombre {
+  gap: 8px;
+}
+
+.nombre h1 {
+  font-family: var(--font-contact);
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.nombre p {
+  font-family: var(--font-contact);
+  font-size: 1.4rem;
+}
+
+.ubicacion,
+.email-redes-cv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ubicacion p,
+.email-redes-cv p {
+  font-family: var(--font-contact);
+  font-size: 1rem;
+}
+
+.icons {
+  padding: 0 2px;
+}
+
+/* ===== SOBRE MÍ ===== */
+
+.sobre-mi h2,
+main h2,
+.footer-contactos h2 {
+  font-family: var(--font-title);
+  font-size: 1.6rem;
+}
+
+.sobre-mi h2 {
+  margin-top: 40px;
+}
+
+.sobre-mi p {
+  margin-top: 15px;
+  font-family: var(--font-text);
+  font-size: 1.25rem;
+  font-weight: 250;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  text-align: justify;
+}
+
+/* ===== MAIN ===== */
+
+main h2 {
+  margin: 35px 0 25px;
+}
+
+/* ===== TECNOLOGÍAS ===== */
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.herramientas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.438rem;
+  padding: 0.425rem 0.75rem;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-family: var(--font-tech);
+  font-weight: 600;
+  border-radius: 0.2rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.herramientas p {
+  font-size: 1.1rem;
+}
+
+.herramientas:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(103, 201, 221, 0.25);
+}
+
+/* ===== CARDS: PROYECTOS Y FORMACIÓN ===== */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  border-color: rgba(103, 201, 221, 0.4);
+}
+
+.project-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 500px;
+}
+
+.project-card__info h3 {
+  color: var(--color-primary);
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+}
+
+.project-card__info p {
+  font-family: var(--font-text);
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.project-card__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-card__tech span {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--color-chip);
+  font-family: var(--font-link);
+  font-size: 0.85rem;
+}
+
+.project-card__links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.project-card__links a {
+  padding: 4px 10px;
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  color: var(--color-primary);
+  font-family: var(--font-link);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-card__links a:hover {
+  background-color: var(--color-primary);
+  color: #000000;
+}
+
+.project-card__image {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.4rem;
+}
+
+/* ===== FOOTER ===== */
+
+.footer-contactos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.footer-contactos p {
+  font-family: var(--font-contact);
+  font-size: 0.95rem;
+}
+
+.contactos-laborales {
+  justify-content: flex-start;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-card__image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    margin-top: 45px;
+    background: var(--color-bg-mobile);
+  }
+
+  .contenido-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .foto_ivan {
+    max-width: 120px;
+  }
+
+  .tecnologias {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+}

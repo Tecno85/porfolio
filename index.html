@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Madrid | Frontend Developer</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/portfolio-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/portfolio-16x16.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Geo:ital@0;1&family=Kode+Mono:wght@400..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="contenido-header">
+        <img
+          src="./assets/img/ivan.png"
+          alt="Foto de Ivan Madrid"
+          class="foto_ivan"
+        />
+
+        <div class="contactos">
+          <div class="nombre">
+            <h1>Ivan Dario Madrid Daza</h1>
+            <p>Frontend Developer | JavaScript | Node.js</p>
+          </div>
+
+          <div class="ubicacion">
+            <img
+              src="./assets/icons/location.png"
+              alt="Ubicación"
+              class="icono-ubicacion"
+            />
+            <p>Valledupar, Colombia</p>
+          </div>
+
+          <nav class="email-redes-cv" aria-label="Redes sociales y contacto">
+            <img src="./assets/icons/email.png" alt="Icono de email" />
+            <p>tecno85@gmail.com</p>
+
+            <a
+              href="https://github.com/Tecno85"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver perfil de GitHub de Ivan Madrid"
+            >
+              <img
+                src="./assets/icons/github_origin.svg"
+                alt="GitHub"
+                class="icons"
+              />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/ivan-dario-madrid/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver perfil de LinkedIn de Ivan Madrid"
+            >
+              <img
+                src="./assets/icons/linkedin.svg"
+                alt="LinkedIn"
+                class="icons"
+              />
+            </a>
+
+            <a href="#" aria-label="Ver hoja de vida de Ivan Madrid">
+              <img
+                src="./assets/icons/cv.png"
+                alt="Hoja de vida"
+                class="icons"
+              />
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <section class="sobre-mi" id="about">
+        <h2>Sobre mí</h2>
+        <p>
+          Desarrollador frontend enfocado en la creación de interfaces web
+          modernas y funcionales. Trabajo con JavaScript, HTML y CSS, y estoy
+          ampliando mis habilidades en desarrollo full stack con Node.js y
+          MySQL. Me enfoco en escribir código limpio, estructurado y en
+          construir aplicaciones con buena experiencia de usuario.
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <h2>Tecnologías</h2>
+
+      <section class="tecnologias" id="skills" aria-label="Tecnologías">
+        <div class="javascript herramientas">
+          <img src="./assets/icons/js.png" alt="Icono JavaScript" />
+          <p>JavaScript</p>
+        </div>
+
+        <div class="Node.js herramientas">
+          <img src="./assets/icons/nodejs.svg" alt="Icono Node.js" />
+          <p>Node.js</p>
+        </div>
+
+        <div class="MySQL herramientas">
+          <img src="./assets/icons/mysql.svg" alt="Icono MySQL" />
+          <p>MySQL</p>
+        </div>
+
+        <div class="html herramientas">
+          <img src="./assets/icons/html.png" alt="Icono HTML" />
+          <p>HTML</p>
+        </div>
+
+        <div class="css herramientas">
+          <img src="./assets/icons/css.png" alt="Icono CSS" />
+          <p>CSS</p>
+        </div>
+      </section>
+
+      <h2>Proyectos</h2>
+
+      <section class="projects" id="projects">
+        <article class="project-card">
+          <div class="project-card__info">
+            <h3>Artify</h3>
+            <p>
+              Aplicación web de edición de imágenes desarrollada con JavaScript,
+              Node.js y MySQL. Permite aplicar filtros, gestionar sesiones de
+              usuario y almacenar imágenes editadas. Incluye backend propio con
+              API REST y persistencia en base de datos.
+            </p>
+
+            <div class="project-card__tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>MySQL</span>
+            </div>
+
+            <div class="project-card__links">
+              <a
+                href="TU_LINK_GITHUB"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Código
+              </a>
+              <a href="#" aria-label="Demo no disponible todavía">Demo</a>
+            </div>
+          </div>
+
+          <img
+            src="./assets/img/artify.png"
+            alt="Vista previa del proyecto Artify"
+            class="project-card__image"
+          />
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__info">
+            <h3>Titan Force Studio</h3>
+            <p>
+              Página web creada para representar un estudio ficticio de
+              videojuegos.
+            </p>
+
+            <div class="project-card__tech">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+
+            <div class="project-card__links">
+              <a
+                href="https://github.com/Tecno85/Generation_Colombia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Código
+              </a>
+              <a
+                href="https://tecno85.github.io/Generation_Colombia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Demo
+              </a>
+            </div>
+          </div>
+
+          <img
+            src="./assets/img/titan-force-studio.png"
+            alt="Vista previa del proyecto Titan Force Studio"
+            class="project-card__image"
+          />
+        </article>
+      </section>
+
+      <h2 class="h2-formacion">Educación</h2>
+
+      <section class="projects" id="education">
+        <article class="project-card">
+          <div class="project-card__info">
+            <h3>Servicio Nacional de Aprendizaje (SENA)</h3>
+            <p>
+              Tecnólogo en Análisis y Desarrollo de Software. Formación enfocada
+              en desarrollo de software y buenas prácticas de programación.
+            </p>
+
+            <div class="project-card__tech">
+              <span>Java</span>
+              <span>SQL</span>
+              <span>Backend</span>
+            </div>
+          </div>
+
+          <img
+            src="./assets/img/sena.png"
+            alt="Logo SENA"
+            class="project-card__image"
+            width="20px"
+          />
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__info">
+            <h3>Talento Tech - MinTIC</h3>
+            <p>
+              Bootcamp enfocado en fundamentos de programación y desarrollo web.
+            </p>
+
+            <div class="project-card__tech">
+              <span>Fundamentos</span>
+              <span>Lógica</span>
+            </div>
+          </div>
+
+          <img
+            src="./assets/img/talentoTech.png"
+            alt="Logo Talento Tech"
+            class="project-card__image"
+          />
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__info">
+            <h3>EGG Educación</h3>
+            <p>
+              Formación en HTML, CSS y JavaScript con enfoque práctico en
+              desarrollo web.
+            </p>
+
+            <div class="project-card__tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+
+          <img
+            src="./assets/img/egg.png"
+            alt="Logo EGG"
+            class="project-card__image"
+          />
+        </article>
+      </section>
+
+      <footer class="footer-contactos" id="contact">
+        <h2>Contactos</h2>
+        <p>Ivan Dario Madrid Daza</p>
+
+        <nav
+          class="email-redes-cv contactos-laborales"
+          aria-label="Contacto final"
+        >
+          <img src="./assets/icons/email.png" alt="Icono de email" />
+          <p>tecno85@gmail.com</p>
+
+          <a
+            href="https://github.com/Tecno85"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Ver perfil de GitHub de Ivan Madrid"
+          >
+            <img
+              src="./assets/icons/github_origin.svg"
+              alt="GitHub"
+              class="icons"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/ivan-dario-madrid/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Ver perfil de LinkedIn de Ivan Madrid"
+          >
+            <img
+              src="./assets/icons/linkedin.svg"
+              alt="LinkedIn"
+              class="icons"
+            />
+          </a>
+
+          <a href="#" aria-label="Ver hoja de vida de Ivan Madrid">
+            <img src="./assets/icons/cv.png" alt="Hoja de vida" class="icons" />
+          </a>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>
