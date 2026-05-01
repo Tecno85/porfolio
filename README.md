@@ -1,10 +1,10 @@
-# 🚀 Portafolio Web - Ivan Madrid
+# Portafolio Web - Ivan Madrid
 
 Portafolio personal como desarrollador frontend, donde presento mis proyectos, habilidades y formación en desarrollo web.
 
 ---
 
-## 🧑‍💻 Sobre mí
+## Sobre mí
 
 Desarrollador frontend enfocado en la creación de interfaces web modernas y funcionales.
 Trabajo con JavaScript, HTML y CSS, y estoy ampliando mis habilidades en desarrollo full stack con Node.js y MySQL.
@@ -13,7 +13,7 @@ Me enfoco en escribir código limpio, estructurado y en construir aplicaciones c
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 * JavaScript
 * HTML
@@ -25,9 +25,9 @@ Me enfoco en escribir código limpio, estructurado y en construir aplicaciones c
 
 ---
 
-## 📂 Proyectos
+## Proyectos
 
-### 🎯 Artify
+### Artify
 
 Aplicación web de edición de imágenes desarrollada con JavaScript, Node.js y MySQL.
 
@@ -38,13 +38,13 @@ Aplicación web de edición de imágenes desarrollada con JavaScript, Node.js y 
 * Persistencia en base de datos
 * Backend propio con API REST
 
-🔗 Código: TU_LINK_GITHUB
+🔗 Código: (https://github.com/Tecno85/artify-personal)
 
 🔗 Demo: (pendiente)
 
 ---
 
-### 🎮 Titan Force Studio
+### Titan Force Studio
 
 Página web que representa un estudio ficticio de videojuegos.
 
@@ -54,7 +54,7 @@ Página web que representa un estudio ficticio de videojuegos.
 
 ---
 
-## 🎓 Formación
+## Formación
 
 * Tecnólogo en Análisis y Desarrollo de Software – SENA
 * Bootcamp Talento Tech (MinTIC)
@@ -62,7 +62,7 @@ Página web que representa un estudio ficticio de videojuegos.
 
 ---
 
-## 📬 Contacto
+## Contacto
 
 * Email: [tecno85@gmail.com](mailto:tecno85@gmail.com)
 * GitHub: https://github.com/Tecno85
@@ -70,17 +70,12 @@ Página web que representa un estudio ficticio de videojuegos.
 
 ---
 
-## 🌐 Demo del portafolio
+## Demo del portafolio
 
-(Agrega aquí el link cuando lo subas a GitHub Pages)
+* GitHub: https://tecno85.github.io/porfolio/
 
 ---
 
-## 📌 Estado del proyecto
+## Estado del proyecto
 
-🚧 En constante mejora y actualización.
-
-
-Colocar esto en la descripción del Repo
-
-Portafolio de desarrollador frontend con proyectos en JavaScript, Node.js y MySQL
+En constante mejora y actualización.

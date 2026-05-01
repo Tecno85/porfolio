@@ -10,7 +10,7 @@
   --color-bg: #292d34;
   --color-bg-mobile: #31363f;
   --color-text: #ffffff;
-  --color-primary: #67c9dd;
+  --color-primary: #3ddaf9;
   --color-chip: #2a2f36;
   --color-light: rgb(227, 225, 225);
   --color-dark: #31363f;
@@ -35,7 +35,7 @@ body {
   padding: 0 20px;
   background: var(--color-bg);
   color: var(--color-text);
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 /* ===== HEADER ===== */
@@ -77,13 +77,13 @@ header {
 
 .nombre h1 {
   font-family: var(--font-contact);
-  font-size: 1.9rem;
+  font-size: 1.9em;
   font-weight: 500;
 }
 
 .nombre p {
   font-family: var(--font-contact);
-  font-size: 1.4rem;
+  font-size: 1.4em;
 }
 
 .ubicacion,
@@ -94,9 +94,12 @@ header {
 }
 
 .ubicacion p,
-.email-redes-cv p {
+.email-redes-cv a {
   font-family: var(--font-contact);
-  font-size: 1rem;
+  font-size: 1em;
+  text-decoration: none;
+  color: var(--color-text);
+  letter-spacing: 0.05em;
 }
 
 .icons {
@@ -108,8 +111,8 @@ header {
 .sobre-mi h2,
 main h2,
 .footer-contactos h2 {
-  font-family: var(--font-title);
-  font-size: 1.6rem;
+  font-family: var(--font-contact);
+  font-size: 1.4em;
 }
 
 .sobre-mi h2 {
@@ -119,7 +122,7 @@ main h2,
 .sobre-mi p {
   margin-top: 15px;
   font-family: var(--font-text);
-  font-size: 1.25rem;
+  font-size: 1.2em;
   font-weight: 250;
   line-height: 1.8rem;
   letter-spacing: 0.1rem;
@@ -149,15 +152,15 @@ main h2 {
   padding: 0.425rem 0.75rem;
   background-color: var(--color-light);
   color: var(--color-dark);
-  font-family: var(--font-tech);
-  font-weight: 600;
+  font-family: var(--font-text);
+  font-weight: 500;
   border-radius: 0.2rem;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .herramientas p {
-  font-size: 1.1rem;
+  font-size: 0.98em;
 }
 
 .herramientas:hover {
@@ -180,7 +183,6 @@ main h2 {
   gap: 2rem;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background-color: var(--color-card);
   border: 1px solid rgba(255, 255, 255, 0.08);
   transition: all 0.3s ease;
 }
@@ -200,14 +202,17 @@ main h2 {
 
 .project-card__info h3 {
   color: var(--color-primary);
-  font-family: var(--font-title);
-  font-size: 1.4rem;
+  font-family: var(--font-contact);
+  font-size: 1.2rem;
 }
 
 .project-card__info p {
   font-family: var(--font-text);
   font-size: 1.1rem;
   line-height: 1.6rem;
+  letter-spacing: 0.05em;
+  font-weight: 200;
+  text-align: justify;
 }
 
 .project-card__tech {
@@ -246,8 +251,8 @@ main h2 {
 }
 
 .project-card__image {
-  width: 180px;
-  height: 120px;
+  width: 140px;
+  height: 100px;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.4rem;
@@ -262,12 +267,12 @@ main h2 {
   margin-top: 40px;
   margin-bottom: 60px;
   padding-top: 20px;
-  border-top: 1px solid var(--color-border);
+  /* border-top: 1px solid var(--color-border); */
 }
 
 .footer-contactos p {
   font-family: var(--font-contact);
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .contactos-laborales {
