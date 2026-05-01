@@ -9,6 +9,7 @@
   --color-bg-mobile: #31363f;
   --color-text: #ffffff;
   --color-primary: #3ddaf9;
+  --color-chip: #2a2f36;
   --color-light: rgb(227, 225, 225);
   --color-dark: #31363f;
   --color-border: rgba(255, 255, 255, 0.323);
@@ -227,8 +228,23 @@ main h2 {
   text-align: justify;
 }
 
+.project-card__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-card__tech span {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--color-chip);
+  font-family: var(--font-link);
+  font-size: 0.85rem;
+}
+
 .project-card__links {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-top: 0.5rem;
 }

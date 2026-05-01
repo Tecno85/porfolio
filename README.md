@@ -1,15 +1,15 @@
 # Portafolio Web - Ivan Madrid
 
-Portafolio personal como desarrollador frontend, donde presento mis proyectos, habilidades y formación en desarrollo web.
+Portafolio personal como desarrollador frontend, donde presento mis proyectos, habilidades, formación y datos de contacto profesional.
 
 ---
 
 ## Sobre mí
 
-Desarrollador frontend enfocado en la creación de interfaces web modernas y funcionales.
-Trabajo con JavaScript, HTML y CSS, y estoy ampliando mis habilidades en desarrollo full stack con Node.js y MySQL.
+Desarrollador frontend enfocado en construir interfaces web claras, funcionales y adaptables.
+Trabajo con HTML, CSS y JavaScript, y estoy fortaleciendo mis bases full stack con Node.js y MySQL.
 
-Me enfoco en escribir código limpio, estructurado y en construir aplicaciones con una buena experiencia de usuario.
+Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientadas a una buena experiencia de usuario.
 
 ---
 
@@ -29,7 +29,7 @@ Me enfoco en escribir código limpio, estructurado y en construir aplicaciones c
 
 ### Artify
 
-Aplicación web de edición de imágenes desarrollada con JavaScript, Node.js y MySQL.
+Aplicación web de edición de imágenes en desarrollo, creada con JavaScript, Node.js y MySQL.
 
 **Características:**
 
@@ -38,15 +38,15 @@ Aplicación web de edición de imágenes desarrollada con JavaScript, Node.js y 
 * Persistencia en base de datos
 * Backend propio con API REST
 
-🔗 Código: (https://github.com/Tecno85/artify-personal)
+🔗 Código: https://github.com/Tecno85/artify-personal
 
-🔗 Demo: (pendiente)
+🔗 Demo: pendiente
 
 ---
 
 ### Titan Force Studio
 
-Página web que representa un estudio ficticio de videojuegos.
+Página web estática para un estudio ficticio de videojuegos, desarrollada como práctica de maquetación, estructura visual, organización de contenido y estilos responsive con HTML y CSS.
 
 🔗 Código: https://github.com/Tecno85/Generation_Colombia/
 
@@ -57,8 +57,8 @@ Página web que representa un estudio ficticio de videojuegos.
 ## Formación
 
 * Tecnólogo en Análisis y Desarrollo de Software – SENA
-* Bootcamp Talento Tech (MinTIC)
-* Formación en desarrollo web – EGG
+* Bootcamp de fundamentos de programación y desarrollo de soluciones digitales – Talento Tech (MinTIC)
+* Formación práctica en desarrollo web con HTML, CSS y JavaScript – EGG
 
 ---
 
