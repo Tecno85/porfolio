@@ -31,7 +31,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Geo:ital@0;1&family=Kode+Mono:wght@400..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Kode+Mono:wght@400..700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
@@ -56,14 +56,14 @@
           <div class="ubicacion">
             <img
               src="./assets/icons/location.png"
-              alt="Ubicación"
+              alt=""
               class="icono-ubicacion"
             />
             <p>Valledupar, Colombia</p>
           </div>
 
           <nav class="email-redes-cv" aria-label="Redes sociales y contacto">
-            <img src="./assets/icons/email.png" alt="Icono de email" />
+            <img src="./assets/icons/email.png" alt="" />
             <a href="mailto:tecno85@gmail.com">tecno85@gmail.com</a>
 
             <a
@@ -72,11 +72,7 @@
               rel="noopener noreferrer"
               aria-label="Ver perfil de GitHub de Ivan Madrid"
             >
-              <img
-                src="./assets/icons/github_origin.svg"
-                alt="GitHub"
-                class="icons"
-              />
+              <img src="./assets/icons/github_origin.svg" alt="" class="icons" />
             </a>
 
             <a
@@ -85,11 +81,7 @@
               rel="noopener noreferrer"
               aria-label="Ver perfil de LinkedIn de Ivan Madrid"
             >
-              <img
-                src="./assets/icons/linkedin.svg"
-                alt="LinkedIn"
-                class="icons"
-              />
+              <img src="./assets/icons/linkedin.svg" alt="" class="icons" />
             </a>
 
             <a
@@ -98,11 +90,7 @@
               rel="noopener noreferrer"
               aria-label="Ver hoja de vida de Ivan Madrid"
             >
-              <img
-                src="./assets/icons/cv.png"
-                alt="Hoja de vida"
-                class="icons"
-              />
+              <img src="./assets/icons/cv.png" alt="" class="icons" />
             </a>
           </nav>
         </div>
@@ -121,43 +109,45 @@
     </header>
 
     <main>
-      <h2>Tecnologías</h2>
+      <section id="skills" aria-labelledby="skills-title">
+        <h2 id="skills-title">Tecnologías</h2>
 
-      <section class="tecnologias" id="skills" aria-label="Tecnologías">
-        <div class="herramientas">
-          <img src="./assets/icons/js.png" alt="Icono JavaScript" />
-          <p>JavaScript</p>
-        </div>
+        <ul class="tecnologias">
+          <li class="herramientas">
+            <img src="./assets/icons/js.png" alt="Icono JavaScript" />
+            <p>JavaScript</p>
+          </li>
 
-        <div class="herramientas">
-          <img src="./assets/icons/nodejs.svg" alt="Icono Node.js" />
-          <p>Node.js</p>
-        </div>
+          <li class="herramientas">
+            <img src="./assets/icons/nodejs.svg" alt="Icono Node.js" />
+            <p>Node.js</p>
+          </li>
 
-        <div class="herramientas">
-          <img src="./assets/icons/mysql.svg" alt="Icono MySQL" />
-          <p>MySQL</p>
-        </div>
+          <li class="herramientas">
+            <img src="./assets/icons/mysql.svg" alt="Icono MySQL" />
+            <p>MySQL</p>
+          </li>
 
-        <div class="herramientas">
-          <img src="./assets/icons/html.png" alt="Icono HTML" />
-          <p>HTML</p>
-        </div>
+          <li class="herramientas">
+            <img src="./assets/icons/html.png" alt="Icono HTML" />
+            <p>HTML</p>
+          </li>
 
-        <div class="herramientas">
-          <img src="./assets/icons/css.png" alt="Icono CSS" />
-          <p>CSS</p>
-        </div>
+          <li class="herramientas">
+            <img src="./assets/icons/css.png" alt="Icono CSS" />
+            <p>CSS</p>
+          </li>
 
-        <div class="herramientas">
-          <img src="./assets/icons/git.png" alt="Icono Git" />
-          <p>Git</p>
-        </div>
+          <li class="herramientas">
+            <img src="./assets/icons/git.png" alt="Icono Git" />
+            <p>Git</p>
+          </li>
+        </ul>
       </section>
 
-      <h2>Proyectos</h2>
+      <section class="projects" id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Proyectos</h2>
 
-      <section class="projects" id="projects">
         <article class="project-card">
           <div class="project-card__info">
             <h3>Artify</h3>
@@ -169,14 +159,8 @@
             </p>
 
             <div class="project-card__links">
-              <a
-                href="https://github.com/Tecno85/porfolio"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Código
-              </a>
-              <a href="#" aria-label="Demo no disponible todavía">Demo</a>
+              <span class="project-card__status">Código pendiente</span>
+              <span class="project-card__status">Demo pendiente</span>
             </div>
           </div>
 
@@ -221,9 +205,9 @@
         </article>
       </section>
 
-      <h2 class="h2-formacion">Educación</h2>
+      <section class="projects" id="education" aria-labelledby="education-title">
+        <h2 id="education-title" class="h2-formacion">Educación</h2>
 
-      <section class="projects" id="education">
         <article class="project-card">
           <div class="project-card__info">
             <h3>Servicio Nacional de Aprendizaje (SENA)</h3>
@@ -237,7 +221,6 @@
             src="./assets/img/sena_img1.png"
             alt="Logo SENA"
             class="project-card__image"
-            width="20px"
           />
         </article>
 
@@ -282,7 +265,7 @@
         class="email-redes-cv contactos-laborales"
         aria-label="Contacto final"
       >
-        <img src="./assets/icons/email.png" alt="Icono de email" />
+        <img src="./assets/icons/email.png" alt="" />
         <a href="mailto:tecno85@gmail.com">tecno85@gmail.com</a>
 
         <a
@@ -291,11 +274,7 @@
           rel="noopener noreferrer"
           aria-label="Ver perfil de GitHub de Ivan Madrid"
         >
-          <img
-            src="./assets/icons/github_origin.svg"
-            alt="GitHub"
-            class="icons"
-          />
+          <img src="./assets/icons/github_origin.svg" alt="" class="icons" />
         </a>
 
         <a
@@ -304,7 +283,7 @@
           rel="noopener noreferrer"
           aria-label="Ver perfil de LinkedIn de Ivan Madrid"
         >
-          <img src="./assets/icons/linkedin.svg" alt="LinkedIn" class="icons" />
+          <img src="./assets/icons/linkedin.svg" alt="" class="icons" />
         </a>
 
         <a
@@ -313,7 +292,7 @@
           rel="noopener noreferrer"
           aria-label="Ver hoja de vida de Ivan Madrid"
         >
-          <img src="./assets/icons/cv.png" alt="Hoja de vida" class="icons" />
+          <img src="./assets/icons/cv.png" alt="" class="icons" />
         </a>
       </nav>
     </footer>

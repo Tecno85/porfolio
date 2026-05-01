@@ -1,9 +1,7 @@
 /* ===== VARIABLES ===== */
 
 :root {
-  --font-title: 'Quantico', sans-serif;
   --font-text: 'Tomorrow', sans-serif;
-  --font-tech: 'Anek Latin', sans-serif;
   --font-link: 'Geo', sans-serif;
   --font-contact: 'Kode Mono', monospace;
 
@@ -11,7 +9,6 @@
   --color-bg-mobile: #31363f;
   --color-text: #ffffff;
   --color-primary: #3ddaf9;
-  --color-chip: #2a2f36;
   --color-light: rgb(227, 225, 225);
   --color-dark: #31363f;
   --color-border: rgba(255, 255, 255, 0.323);
@@ -36,6 +33,11 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   font-size: 1em;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
 }
 
 /* ===== HEADER ===== */
@@ -90,6 +92,7 @@ header {
 .email-redes-cv {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -142,6 +145,7 @@ main h2 {
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
+  list-style: none;
 }
 
 .herramientas {
@@ -155,8 +159,9 @@ main h2 {
   font-family: var(--font-text);
   font-weight: 500;
   border-radius: 0.2rem;
-  transition: all 0.3s ease;
-  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .herramientas p {
@@ -176,6 +181,10 @@ main h2 {
   gap: 2rem;
 }
 
+.projects h2 {
+  margin-bottom: 0;
+}
+
 .project-card {
   display: flex;
   justify-content: space-between;
@@ -184,7 +193,10 @@ main h2 {
   padding: 1.5rem;
   border-radius: 0.5rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: all 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .project-card:hover {
@@ -215,39 +227,33 @@ main h2 {
   text-align: justify;
 }
 
-.project-card__tech {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.project-card__tech span {
-  padding: 4px 8px;
-  border-radius: 4px;
-  background-color: var(--color-chip);
-  font-family: var(--font-link);
-  font-size: 0.85rem;
-}
-
 .project-card__links {
   display: flex;
   gap: 1rem;
   margin-top: 0.5rem;
 }
 
-.project-card__links a {
+.project-card__links a,
+.project-card__status {
   padding: 4px 10px;
   border: 1px solid var(--color-primary);
   border-radius: 4px;
   color: var(--color-primary);
   font-family: var(--font-link);
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .project-card__links a:hover {
   background-color: var(--color-primary);
   color: #000000;
+}
+
+.project-card__status {
+  border-color: rgba(255, 255, 255, 0.28);
+  color: rgba(255, 255, 255, 0.72);
 }
 
 .project-card__image {
@@ -267,7 +273,6 @@ main h2 {
   margin-top: 40px;
   margin-bottom: 60px;
   padding-top: 20px;
-  /* border-top: 1px solid var(--color-border); */
 }
 
 .footer-contactos p {
@@ -311,9 +316,5 @@ main h2 {
   .tecnologias {
     justify-content: center;
     gap: 15px;
-  }
-
-  .hidden-mobile {
-    display: none;
   }
 }
