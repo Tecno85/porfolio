@@ -273,8 +273,8 @@ main h2 {
 }
 
 .project-card__image {
-  width: 140px;
-  height: 100px;
+  width: 190px;
+  height: 130px;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.4rem;
@@ -332,5 +332,25 @@ main h2 {
   .tecnologias {
     justify-content: center;
     gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-mi p,
+  .project-card__info p {
+    text-align: left;
+    letter-spacing: 0.03em;
+  }
+
+  .nombre h1 {
+    font-size: 1.5em;
+  }
+
+  .nombre p {
+    font-size: 1.1em;
+  }
+
+  .email-redes-cv {
+    justify-content: center;
   }
 }
