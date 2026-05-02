@@ -5,7 +5,7 @@
   --font-link: 'Geo', sans-serif;
   --font-contact: 'Kode Mono', monospace;
 
-  --color-bg: #292d34;
+  --color-bg: #212327;
   --color-bg-mobile: #31363f;
   --color-text: #ffffff;
   --color-primary: #3ddaf9;
@@ -273,11 +273,16 @@ main h2 {
 }
 
 .project-card__image {
-  width: 190px;
-  height: 130px;
+  width: 130px;
+  height: 90px;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.4rem;
+}
+
+#projects .project-card__image {
+  width: 200px;
+  height: 140px;
 }
 
 /* ===== FOOTER ===== */
@@ -312,6 +317,11 @@ main h2 {
     width: 100%;
     height: auto;
   }
+
+  #projects .project-card__image {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -333,9 +343,6 @@ main h2 {
     justify-content: center;
     gap: 15px;
   }
-}
-
-@media (max-width: 480px) {
   .sobre-mi p,
   .project-card__info p {
     text-align: left;
