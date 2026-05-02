@@ -80,7 +80,7 @@ Página web estática para un estudio ficticio de videojuegos, desarrollada como
 
 El portafolio incluye metadatos SEO básicos, Open Graph y Twitter Card para mejorar la vista previa al compartir el enlace en redes sociales, mensajería o plataformas profesionales.
 
-Imagen de preview: `assets/img/ivan_github_circular.png`
+Imagen de preview: `assets/img/portfolio-preview.png`
 
 ---
 
