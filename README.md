@@ -78,7 +78,7 @@ Página web estática para un estudio ficticio de videojuegos, desarrollada como
 
 ## Vista al compartir
 
-El portafolio incluye metadatos SEO básicos, Open Graph y Twitter Card para mejorar la vista previa al compartir el enlace en redes sociales, mensajería o plataformas profesionales.
+El portafolio incluye metadatos SEO básicos y Open Graph para mejorar la vista previa al compartir el enlace en redes sociales, mensajería o plataformas profesionales.
 
 Imagen de preview: `assets/img/portfolio-preview.png`
 
