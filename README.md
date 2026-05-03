@@ -15,9 +15,9 @@ Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientad
 
 ## Tecnologías
 
-* JavaScript
-* HTML
-* CSS
+* JavaScript (Vanilla JS con animaciones y efectos interactivos)
+* HTML5 (Semántico y accesible)
+* CSS3 (Custom properties, animaciones, responsive)
 * Node.js
 * MySQL
 * Git & GitHub
@@ -81,6 +81,53 @@ Página web estática para un estudio ficticio de videojuegos, desarrollada como
 El portafolio incluye metadatos SEO básicos y Open Graph para mejorar la vista previa al compartir el enlace en redes sociales, mensajería o plataformas profesionales.
 
 Imagen de preview: `assets/img/portfolio-preview.png`
+
+---
+
+## Características
+
+### Interactividad y Animaciones
+
+* **Animaciones al scroll:** Los elementos aparecen suavemente cuando entran en el viewport
+* **Efecto de escritura:** El nombre se escribe automáticamente al cargar la página
+* **Efecto parallax:** Movimiento sutil en el header al hacer scroll
+* **Hover mejorado:** Efecto de brillo en las tarjetas de proyectos
+* **Smooth scroll:** Navegación suave entre secciones
+* **Delays escalonados:** Las tecnologías aparecen progresivamente
+
+### SEO y Optimización
+
+* **robots.txt:** Configuración para motores de búsqueda
+* **sitemap.xml:** Mapa del sitio con todas las secciones
+* **Meta tags:** SEO básico y Open Graph
+* **Estructura semántica:** HTML5 semántico para mejor indexación
+* **Imágenes optimizadas:** Uso de WebP para mejor rendimiento
+
+### Diseño
+
+* **Responsive:** Adaptable a móviles, tablets y escritorio
+* **Modo oscuro:** Paleta de colores profesional
+* **Accesibilidad:** ARIA labels y navegación por teclado
+* **Tipografías:** Google Fonts (Tomorrow, Geo, Kode Mono)
+
+---
+
+## Estructura de archivos
+
+```
+porfolio/
+├── index.html          # Página principal
+├── index.css           # Estilos con animaciones
+├── index.js            # JavaScript para interactividad
+├── robots.txt          # Configuración SEO
+├── sitemap.xml         # Mapa del sitio
+├── README.md           # Documentación
+└── assets/
+    ├── img/            # Imágenes del portafolio
+    ├── icons/          # Iconos SVG y PNG
+    ├── docs/           # CV en PDF
+    └── favicon/        # Favicons
+```
 
 ---
 

@@ -1,0 +1,11 @@
+# robots.txt para el portafolio de Ivan Madrid
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tecno85.github.io/porfolio/sitemap.xml
+
+# Bloquear carpetas innecesarias (si las tienes)
+Disallow: /node_modules/
+Disallow: /.git/
