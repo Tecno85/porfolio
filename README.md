@@ -80,7 +80,7 @@ Página web estática para un estudio ficticio de videojuegos, desarrollada como
 
 El portafolio incluye metadatos SEO básicos y Open Graph para mejorar la vista previa al compartir el enlace en redes sociales, mensajería o plataformas profesionales.
 
-Imagen de preview: `assets/img/portfolio-preview.png`
+Imagen de preview: `assets/img/portfolio-preview.webp`
 
 ---
 

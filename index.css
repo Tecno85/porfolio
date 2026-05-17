@@ -305,52 +305,6 @@ main h2 {
   justify-content: flex-start;
 }
 
-/* ===== MODO CLARO (light-mode) ===== */
-
-body.light-mode {
-  --color-bg: #eef1f6; /* gris azulado suave, menos blanco */
-  --color-bg-mobile: #f4f6f9;
-  --color-text: #1a1a1a;
-  --color-primary: #0066cc; /* azul oscuro para buen contraste */
-  --color-chip: #d5d9df; /* chips con leve contraste */
-  --color-light: #c6ccd4; /* fondo de badges de tecnologías (gris claro) */
-  --color-dark: #1e242b; /* texto oscuro para badges */
-  --color-border: rgba(0, 0, 0, 0.12);
-
-  /* Tarjetas de proyectos */
-  .project-card {
-    border-color: rgba(0, 0, 0, 0.08);
-  }
-
-  .project-card:hover {
-    border-color: rgba(0, 102, 204, 0.4);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-  }
-
-  .project-card__tech span {
-    background-color: var(--color-chip);
-    color: var(--color-text);
-  }
-
-  .project-card__links a,
-  .project-card__status {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-  }
-
-  .project-card__links a:hover {
-    background-color: var(--color-primary);
-    color: #ffffff;
-  }
-
-  /* Iconos en modo claro: se mantienen con sus colores originales */
-  .icons,
-  .icono-ubicacion,
-  nav img,
-  .herramientas img {
-    filter: none;
-  }
-}
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 768px) {
@@ -410,9 +364,9 @@ body.light-mode {
 
 /* ===== ANIMACIONES ===== */
 
-.project-card,
-.herramientas,
-.sobre-mi {
+html.js .project-card,
+html.js .herramientas,
+html.js .sobre-mi {
   opacity: 0;
   transform: translateY(30px);
   transition:
@@ -420,11 +374,21 @@ body.light-mode {
     transform 0.6s ease;
 }
 
-.project-card.animate-in,
-.herramientas.animate-in,
-.sobre-mi.animate-in {
+html.js .project-card.animate-in,
+html.js .herramientas.animate-in,
+html.js .sobre-mi.animate-in {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .project-card,
+  html.js .herramientas,
+  html.js .sobre-mi {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 /* Delay escalonado para las tecnologías */
@@ -445,30 +409,4 @@ body.light-mode {
 }
 .herramientas:nth-child(6) {
   transition-delay: 0.6s;
-}
-
-/* Efecto de brillo en las cards al hover */
-.project-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(61, 218, 249, 0.1),
-    transparent
-  );
-  transition: left 0.5s ease;
-}
-
-.project-card {
-  position: relative;
-  overflow: hidden;
-}
-
-.project-card:hover::before {
-  left: 100%;
 }

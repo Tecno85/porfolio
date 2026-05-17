@@ -1,23 +1,32 @@
 // ===== ANIMACIONES AL HACER SCROLL =====
 
+document.documentElement.classList.add('js');
+
 const observerOptions = {
   threshold: 0.1,
   rootMargin: '0px 0px -50px 0px',
 };
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate-in');
-    }
-  });
-}, observerOptions);
 
 // Observar elementos que queremos animar
 document.addEventListener('DOMContentLoaded', () => {
   const elementsToAnimate = document.querySelectorAll(
     '.project-card, .herramientas, .sobre-mi'
   );
+
+  if (!('IntersectionObserver' in window)) {
+    elementsToAnimate.forEach((el) => {
+      el.classList.add('animate-in');
+    });
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+      }
+    });
+  }, observerOptions);
 
   elementsToAnimate.forEach((el) => {
     observer.observe(el);
@@ -56,8 +65,11 @@ window.addEventListener('scroll', () => {
   const header = document.querySelector('header');
 
   if (header) {
-    header.style.transform = `translateY(${scrolled * 0.3}px)`;
-    header.style.opacity = 1 - scrolled * 0.002;
+    const offset = Math.min(scrolled * 0.12, 45);
+    const opacity = Math.max(1 - scrolled * 0.0015, 0.75);
+
+    header.style.transform = `translateY(${offset}px)`;
+    header.style.opacity = opacity;
   }
 });
 
