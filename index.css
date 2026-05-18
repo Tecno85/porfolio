@@ -285,6 +285,12 @@ main h2 {
   height: 140px;
 }
 
+#education .project-card__image {
+  width: 150px;
+  height: 90px;
+  align-self: center;
+}
+
 /* ===== FOOTER ===== */
 
 .footer-contactos {
