@@ -1,13 +1,13 @@
 # Portafolio Web - Ivan Madrid
 
-Portafolio personal como desarrollador frontend, donde presento mis proyectos, habilidades, formación y datos de contacto profesional.
+Portafolio personal como desarrollador de software, donde presento mis proyectos, habilidades, formación y datos de contacto profesional.
 
 ---
 
 ## Sobre mí
 
-Desarrollador frontend enfocado en construir interfaces web claras, funcionales y adaptables.
-Trabajo con HTML, CSS y JavaScript, y estoy fortaleciendo mis bases full stack con Node.js y MySQL.
+Desarrollador enfocado en construir interfaces claras, funcionales y adaptables.
+Trabajo con HTML, CSS, JavaScript, Node.js, MySQL y desarrollo Android con Kotlin.
 
 Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientadas a una buena experiencia de usuario.
 
@@ -18,6 +18,8 @@ Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientad
 * JavaScript (Vanilla JS con animaciones y efectos interactivos)
 * HTML5 (Semántico y accesible)
 * CSS3 (Custom properties, animaciones, responsive)
+* Kotlin
+* Jetpack Compose
 * Node.js
 * MySQL
 * Git & GitHub
@@ -59,7 +61,7 @@ Aplicación web de edición de imágenes en desarrollo, creada con JavaScript, N
 
 🔗 Código: https://github.com/Tecno85/artify-personal
 
-🔗 Demo: pendiente
+🔗 Estado: en desarrollo
 
 ---
 
@@ -110,7 +112,7 @@ Imagen de preview: `assets/img/portfolio-preview.webp`
 * **Animaciones al scroll:** Los elementos aparecen suavemente cuando entran en el viewport
 * **Efecto de escritura:** El nombre se escribe automáticamente al cargar la página
 * **Efecto parallax:** Movimiento sutil en el header al hacer scroll
-* **Hover mejorado:** Efecto de brillo en las tarjetas de proyectos
+* **Hover mejorado:** Elevación sutil en tarjetas y tecnologías
 * **Smooth scroll:** Navegación suave entre secciones
 * **Delays escalonados:** Las tecnologías aparecen progresivamente
 

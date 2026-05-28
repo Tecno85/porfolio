@@ -129,7 +129,7 @@ main h2,
   font-size: 1.2em;
   font-weight: 250;
   line-height: 1.8rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05em;
   text-align: justify;
 }
 
@@ -225,7 +225,7 @@ main h2 {
   line-height: 1.75rem;
   letter-spacing: 0.05em;
   font-weight: 200;
-  text-align: justify;
+  text-align: left;
 }
 
 .project-card__tech {
