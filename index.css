@@ -165,6 +165,12 @@ main h2 {
     box-shadow 0.3s ease;
 }
 
+.herramientas img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
 .herramientas p {
   font-size: 0.98em;
 }
@@ -415,4 +421,10 @@ html.js .sobre-mi.animate-in {
 }
 .herramientas:nth-child(6) {
   transition-delay: 0.6s;
+}
+.herramientas:nth-child(7) {
+  transition-delay: 0.7s;
+}
+.herramientas:nth-child(8) {
+  transition-delay: 0.8s;
 }

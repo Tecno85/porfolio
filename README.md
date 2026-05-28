@@ -146,7 +146,7 @@ porfolio/
 └── assets/
     ├── img/            # Imágenes del portafolio
     ├── icons/          # Iconos SVG y PNG
-    ├── docs/           # CV en PDF
+    ├── docs/           # CV, certificados y fuente Markdown del CV
     └── favicon/        # Favicons
 ```
 
