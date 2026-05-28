@@ -15,9 +15,9 @@ Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientad
 
 ## Tecnologías
 
-* JavaScript (Vanilla JS con animaciones y efectos interactivos)
 * HTML5 (Semántico y accesible)
 * CSS3 (Custom properties, animaciones, responsive)
+* JavaScript (Vanilla JS con animaciones y efectos interactivos)
 * Kotlin
 * Jetpack Compose
 * Node.js
@@ -128,7 +128,7 @@ Imagen de preview: `assets/img/portfolio-preview.webp`
 
 * **Responsive:** Adaptable a móviles, tablets y escritorio
 * **Modo oscuro:** Paleta de colores profesional
-* **Accesibilidad:** ARIA labels y navegación por teclado
+* **Accesibilidad:** ARIA labels, navegación por teclado y soporte para reducir animaciones
 * **Tipografías:** Google Fonts (Tomorrow, Geo, Kode Mono)
 
 ---

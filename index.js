@@ -2,6 +2,10 @@
 
 document.documentElement.classList.add('js');
 
+const prefersReducedMotion = window.matchMedia(
+  '(prefers-reduced-motion: reduce)'
+).matches;
+
 const observerOptions = {
   threshold: 0.1,
   rootMargin: '0px 0px -50px 0px',
@@ -13,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '.project-card, .herramientas, .sobre-mi'
   );
 
-  if (!('IntersectionObserver' in window)) {
+  if (prefersReducedMotion || !('IntersectionObserver' in window)) {
     elementsToAnimate.forEach((el) => {
       el.classList.add('animate-in');
     });
@@ -51,6 +55,10 @@ function typeWriter(element, text, speed = 100) {
 }
 
 window.addEventListener('load', () => {
+  if (prefersReducedMotion) {
+    return;
+  }
+
   const titleElement = document.querySelector('.nombre h1');
   if (titleElement) {
     const originalText = titleElement.textContent;
@@ -61,6 +69,10 @@ window.addEventListener('load', () => {
 // ===== EFECTO PARALLAX SUTIL EN HEADER =====
 
 window.addEventListener('scroll', () => {
+  if (prefersReducedMotion) {
+    return;
+  }
+
   const scrolled = window.pageYOffset;
   const header = document.querySelector('header');
 
@@ -82,7 +94,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
     if (target) {
       target.scrollIntoView({
-        behavior: 'smooth',
+        behavior: prefersReducedMotion ? 'auto' : 'smooth',
         block: 'start',
       });
     }
