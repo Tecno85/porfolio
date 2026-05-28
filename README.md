@@ -27,6 +27,25 @@ Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientad
 
 ## Proyectos
 
+### Control Vehicular
+
+Aplicación Android para administrar vehículos particulares y taxis, desarrollada con Kotlin, Jetpack Compose, Room y SQLite.
+
+**Características:**
+
+* Registro, edición y eliminación de vehículos
+* Gestión de gastos, novedades y documentos
+* Historial por vehículo agrupado por fecha
+* Próximos vencimientos con colores por urgencia
+* Reportes básicos y resumen económico para taxis
+* Persistencia local con Room / SQLite
+
+🔗 Código: https://github.com/Tecno85/vehicle-control-app
+
+🔗 Estado: en prueba real
+
+---
+
 ### Artify
 
 Aplicación web de edición de imágenes en desarrollo, creada con JavaScript, Node.js y MySQL.
