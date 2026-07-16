@@ -68,35 +68,28 @@ window.addEventListener('load', () => {
 
 // ===== EFECTO PARALLAX SUTIL EN HEADER =====
 
-window.addEventListener('scroll', () => {
-  if (prefersReducedMotion) {
-    return;
-  }
+const header = document.querySelector('header');
+let scrollFrameRequested = false;
 
-  const scrolled = window.pageYOffset;
-  const header = document.querySelector('header');
+function updateHeaderEffect() {
+  const scrolled = window.scrollY;
+  const offset = Math.min(scrolled * 0.08, 24);
+  const opacity = Math.max(1 - scrolled * 0.0008, 0.88);
 
-  if (header) {
-    const offset = Math.min(scrolled * 0.12, 45);
-    const opacity = Math.max(1 - scrolled * 0.0015, 0.75);
+  header.style.transform = `translateY(${offset}px)`;
+  header.style.opacity = opacity;
+  scrollFrameRequested = false;
+}
 
-    header.style.transform = `translateY(${offset}px)`;
-    header.style.opacity = opacity;
-  }
-});
-
-// ===== SMOOTH SCROLL PARA NAVEGACIÓN =====
-
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-
-    if (target) {
-      target.scrollIntoView({
-        behavior: prefersReducedMotion ? 'auto' : 'smooth',
-        block: 'start',
-      });
-    }
-  });
-});
+if (!prefersReducedMotion && header) {
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (!scrollFrameRequested) {
+        window.requestAnimationFrame(updateHeaderEffect);
+        scrollFrameRequested = true;
+      }
+    },
+    { passive: true }
+  );
+}

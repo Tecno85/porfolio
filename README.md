@@ -50,18 +50,19 @@ Aplicación Android para administrar vehículos particulares y taxis, desarrolla
 
 ### Artify
 
-Aplicación web de edición de imágenes en desarrollo, creada con JavaScript, Node.js y MySQL.
+Editor de imágenes web creado con JavaScript, Canvas API, Node.js, Express y PostgreSQL.
 
 **Características:**
 
-* Aplicación de filtros a imágenes
-* Gestión de sesiones de usuario
-* Persistencia en base de datos
-* Backend propio con API REST
+* Filtros, recorte, redimensionamiento y conversión de formatos
+* Historial para deshacer y rehacer operaciones
+* Autenticación y autorización por roles
+* Panel administrativo y registro de actividad
+* Backend propio con API REST y persistencia en PostgreSQL
 
-🔗 Código: https://github.com/Tecno85/artify-personal
+🔗 Código: https://github.com/Tecno85/artify
 
-🔗 Estado: en desarrollo
+🔗 Demo: https://tecno85.github.io/artify/
 
 ---
 
@@ -113,7 +114,6 @@ Imagen de preview: `assets/img/portfolio-preview.webp`
 * **Efecto de escritura:** El nombre se escribe automáticamente al cargar la página
 * **Efecto parallax:** Movimiento sutil en el header al hacer scroll
 * **Hover mejorado:** Elevación sutil en tarjetas y tecnologías
-* **Smooth scroll:** Navegación suave entre secciones
 * **Delays escalonados:** Las tecnologías aparecen progresivamente
 
 ### SEO y Optimización

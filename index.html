@@ -61,7 +61,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Kode+Mono:wght@400..700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&amp;family=Kode+Mono:wght@400..700&amp;family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       rel="stylesheet"
     />
 
@@ -69,6 +69,8 @@
   </head>
 
   <body>
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
     <header>
       <div class="contenido-header">
         <img
@@ -144,7 +146,7 @@
       </section>
     </header>
 
-    <main>
+    <main id="main-content">
       <section id="skills" aria-labelledby="skills-title">
         <h2 id="skills-title">Tecnologías</h2>
 
@@ -245,29 +247,35 @@
           <div class="project-card__info">
             <h3>Artify</h3>
             <p>
-              Aplicación web de edición de imágenes en desarrollo. Permite
-              aplicar filtros, gestionar sesiones de usuario y almacenar
-              imágenes editadas. Incluye backend propio con API REST y
-              persistencia en base de datos.
+              Editor de imágenes web con filtros, recorte, redimensionamiento,
+              historial y conversión de formatos. Incluye autenticación por
+              roles, panel administrativo, API REST y persistencia en
+              PostgreSQL.
             </p>
 
             <div class="project-card__tech" aria-label="Tecnologías de Artify">
               <span>JavaScript</span>
               <span>Node.js</span>
-              <span>MySQL</span>
-              <span>HTML</span>
-              <span>CSS</span>
+              <span>Express</span>
+              <span>PostgreSQL</span>
+              <span>Canvas API</span>
             </div>
 
             <div class="project-card__links">
               <a
-                href="https://github.com/Tecno85/artify-personal"
+                href="https://github.com/Tecno85/artify"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Código
+                Ver repositorio
               </a>
-              <span class="project-card__status">En desarrollo</span>
+              <a
+                href="https://tecno85.github.io/artify/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Probar aplicación
+              </a>
             </div>
           </div>
 
@@ -344,6 +352,15 @@
               en análisis de requerimientos, programación, bases de datos y
               buenas prácticas para construir soluciones de software.
             </p>
+            <div class="project-card__links">
+              <a
+                href="./assets/docs/certificado-sena.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver certificado
+              </a>
+            </div>
           </div>
 
           <img
@@ -385,6 +402,15 @@
               Formación práctica en desarrollo web con HTML, CSS y JavaScript,
               enfocada en crear interfaces y aplicar fundamentos del frontend.
             </p>
+            <div class="project-card__links">
+              <a
+                href="./assets/docs/certificado-egg.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver certificado
+              </a>
+            </div>
           </div>
 
           <img

@@ -25,6 +25,7 @@
 
 html {
   font-size: 16px;
+  scroll-padding-top: 1.5rem;
 }
 
 body {
@@ -39,6 +40,24 @@ body {
 a:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 4px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 10;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  background: var(--color-primary);
+  color: #000000;
+  font-family: var(--font-contact);
+  text-decoration: none;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
 }
 
 /* ===== HEADER ===== */
@@ -372,6 +391,7 @@ main h2 {
   .email-redes-cv {
     justify-content: center;
   }
+
 }
 
 /* ===== ANIMACIONES ===== */
