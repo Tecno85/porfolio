@@ -44,6 +44,8 @@ Aplicación Android para administrar vehículos particulares y taxis, desarrolla
 
 🔗 Código: https://github.com/Tecno85/vehicle-control-app
 
+🔗 Capturas: https://github.com/Tecno85/vehicle-control-app#capturas
+
 🔗 Estado: en prueba real
 
 ---
@@ -112,7 +114,6 @@ Imagen de preview: `assets/img/portfolio-preview.webp`
 
 * **Animaciones al scroll:** Los elementos aparecen suavemente cuando entran en el viewport
 * **Efecto de escritura:** El nombre se escribe automáticamente al cargar la página
-* **Efecto parallax:** Movimiento sutil en el header al hacer scroll
 * **Hover mejorado:** Elevación sutil en tarjetas y tecnologías
 * **Delays escalonados:** Las tecnologías aparecen progresivamente
 
@@ -132,18 +133,25 @@ Imagen de preview: `assets/img/portfolio-preview.webp`
 * **Accesibilidad:** ARIA labels, navegación por teclado y soporte para reducir animaciones
 * **Tipografías:** Google Fonts (Tomorrow y Kode Mono)
 
+### Calidad
+
+* **Validación automática:** GitHub Actions comprueba JavaScript, HTML, XML, rutas locales y peso de archivos
+* **Enlaces externos:** Se revisan como advertencias para evitar falsos fallos por bloqueos de terceros
+
 ---
 
 ## Estructura de archivos
 
 ```
 porfolio/
+├── .github/workflows/  # Validación automática en GitHub Actions
 ├── index.html          # Página principal
 ├── index.css           # Estilos con animaciones
 ├── index.js            # JavaScript para interactividad
 ├── robots.txt          # Configuración SEO
 ├── sitemap.xml         # Mapa del sitio
 ├── README.md           # Documentación
+├── scripts/            # Validaciones propias del portafolio
 ├── skills/
 │   └── portafolio/     # Reglas de trabajo para Codex
 └── assets/

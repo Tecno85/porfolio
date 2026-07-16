@@ -65,31 +65,3 @@ window.addEventListener('load', () => {
     typeWriter(titleElement, originalText, 80);
   }
 });
-
-// ===== EFECTO PARALLAX SUTIL EN HEADER =====
-
-const header = document.querySelector('header');
-let scrollFrameRequested = false;
-
-function updateHeaderEffect() {
-  const scrolled = window.scrollY;
-  const offset = Math.min(scrolled * 0.08, 24);
-  const opacity = Math.max(1 - scrolled * 0.0008, 0.88);
-
-  header.style.transform = `translateY(${offset}px)`;
-  header.style.opacity = opacity;
-  scrollFrameRequested = false;
-}
-
-if (!prefersReducedMotion && header) {
-  window.addEventListener(
-    'scroll',
-    () => {
-      if (!scrollFrameRequested) {
-        window.requestAnimationFrame(updateHeaderEffect);
-        scrollFrameRequested = true;
-      }
-    },
-    { passive: true }
-  );
-}

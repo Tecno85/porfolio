@@ -1,0 +1,49 @@
+name: Validar portafolio
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: HTML, JavaScript y recursos
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v6
+
+      - name: Instalar validadores del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes tidy libxml2-utils
+
+      - name: Validar JavaScript
+        run: node --check index.js
+
+      - name: Validar HTML
+        shell: bash
+        run: |
+          status=0
+          tidy -errors -quiet index.html || status=$?
+          if (( status > 1 )); then
+            exit "$status"
+          fi
+
+      - name: Validar sitemap XML
+        run: xmllint --noout sitemap.xml
+
+      - name: Validar estructura y recursos locales
+        run: node scripts/validate-portfolio.mjs
+
+      - name: Revisar enlaces externos
+        run: node scripts/validate-portfolio.mjs --external
