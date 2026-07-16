@@ -121,6 +121,7 @@ Imagen de preview: `assets/img/portfolio-preview.webp`
 * **robots.txt:** Configuración para motores de búsqueda
 * **sitemap.xml:** Mapa del sitio con todas las secciones
 * **Meta tags:** SEO básico y Open Graph
+* **Datos estructurados:** JSON-LD con `ProfilePage` y `Person`
 * **Estructura semántica:** HTML5 semántico para mejor indexación
 * **Imágenes optimizadas:** Uso de WebP para mejor rendimiento
 
@@ -129,7 +130,7 @@ Imagen de preview: `assets/img/portfolio-preview.webp`
 * **Responsive:** Adaptable a móviles, tablets y escritorio
 * **Modo oscuro:** Paleta de colores profesional
 * **Accesibilidad:** ARIA labels, navegación por teclado y soporte para reducir animaciones
-* **Tipografías:** Google Fonts (Tomorrow, Geo, Kode Mono)
+* **Tipografías:** Google Fonts (Tomorrow y Kode Mono)
 
 ---
 

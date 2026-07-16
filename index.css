@@ -2,11 +2,10 @@
 
 :root {
   --font-text: 'Tomorrow', sans-serif;
-  --font-link: 'Geo', sans-serif;
+  --font-link: 'Kode Mono', monospace;
   --font-contact: 'Kode Mono', monospace;
 
   --color-bg: #212327;
-  --color-bg-mobile: #31363f;
   --color-text: #ffffff;
   --color-primary: #3ddaf9;
   --color-chip: #2a2f36;
@@ -276,11 +275,12 @@ main h2 {
 
 .project-card__links a,
 .project-card__status {
-  padding: 4px 10px;
+  padding: 3px 8px;
   border: 1px solid var(--color-primary);
   border-radius: 4px;
   color: var(--color-primary);
   font-family: var(--font-link);
+  font-size: 0.82rem;
   text-decoration: none;
   transition:
     background-color 0.3s ease,
@@ -358,7 +358,6 @@ main h2 {
 @media (max-width: 480px) {
   body {
     margin-top: 45px;
-    background: var(--color-bg-mobile);
   }
 
   .contenido-header {
