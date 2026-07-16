@@ -42,7 +42,7 @@ Aplicación Android para administrar vehículos particulares y taxis, desarrolla
 * Reportes básicos y resumen económico para taxis
 * Persistencia local con Room / SQLite
 
-🔗 Código: https://github.com/Tecno85/vehicle-control-app
+🔗 Repositorio: https://github.com/Tecno85/vehicle-control-app
 
 🔗 Capturas: https://github.com/Tecno85/vehicle-control-app#capturas
 
@@ -62,7 +62,7 @@ Editor de imágenes web creado con JavaScript, Canvas API, Node.js, Express y Po
 * Panel administrativo y registro de actividad
 * Backend propio con API REST y persistencia en PostgreSQL
 
-🔗 Código: https://github.com/Tecno85/artify
+🔗 Repositorio: https://github.com/Tecno85/artify
 
 🔗 Demo: https://tecno85.github.io/artify/
 
@@ -72,7 +72,7 @@ Editor de imágenes web creado con JavaScript, Canvas API, Node.js, Express y Po
 
 Página web estática para un estudio ficticio de videojuegos, desarrollada como práctica de maquetación, estructura visual, organización de contenido y estilos responsive con HTML y CSS.
 
-🔗 Código: https://github.com/Tecno85/Generation_Colombia/
+🔗 Repositorio: https://github.com/Tecno85/Generation_Colombia/
 
 🔗 Demo: https://tecno85.github.io/Generation_Colombia/
 
