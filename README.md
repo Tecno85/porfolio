@@ -7,7 +7,7 @@ Portafolio personal como desarrollador de software, donde presento mis proyectos
 ## Sobre mí
 
 Desarrollador enfocado en construir interfaces claras, funcionales y adaptables.
-Trabajo con HTML, CSS, JavaScript, Node.js, MySQL y desarrollo Android con Kotlin.
+Trabajo con HTML, CSS, JavaScript, Node.js, PostgreSQL y desarrollo Android con Kotlin.
 
 Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientadas a una buena experiencia de usuario.
 
@@ -21,7 +21,7 @@ Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientad
 * Kotlin
 * Jetpack Compose
 * Node.js
-* MySQL
+* PostgreSQL
 * Git & GitHub
 * Markdown
 
@@ -143,6 +143,8 @@ porfolio/
 ├── robots.txt          # Configuración SEO
 ├── sitemap.xml         # Mapa del sitio
 ├── README.md           # Documentación
+├── skills/
+│   └── portafolio/     # Reglas de trabajo para Codex
 └── assets/
     ├── img/            # Imágenes del portafolio
     ├── icons/          # Iconos SVG y PNG

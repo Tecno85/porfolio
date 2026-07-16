@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portafolio"
+  short_description: "Mantener y mejorar el portafolio profesional"
+  default_prompt: "Usa $portafolio para actualizar el contenido, diseño o documentación del portafolio."

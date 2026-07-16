@@ -8,13 +8,13 @@ LinkedIn: https://www.linkedin.com/in/ivan-dario-madrid/
 
 ## Perfil
 
-Desarrollador de software enfocado en construir interfaces claras, funcionales y adaptables. Trabajo con HTML, CSS, JavaScript, Node.js, MySQL y desarrollo Android con Kotlin. Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientadas a una buena experiencia de usuario.
+Desarrollador de software enfocado en construir interfaces claras, funcionales y adaptables. Trabajo con HTML, CSS, JavaScript, Node.js, PostgreSQL y desarrollo Android con Kotlin. Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientadas a una buena experiencia de usuario.
 
 ## Habilidades técnicas
 
 **Frontend:** HTML, CSS, JavaScript, diseño responsive, HTML semántico.  
 **Android:** Kotlin, Jetpack Compose, Material Design 3.  
-**Backend:** Node.js, Express, MySQL, APIs REST.  
+**Backend:** Node.js, Express, PostgreSQL, APIs REST.
 **Datos y herramientas:** Room, SQLite, Git, GitHub, VS Code, Android Studio, Postman.
 
 ## Proyectos destacados
@@ -28,10 +28,13 @@ App Android para administrar vehículos particulares y taxis. Permite registrar 
 
 ### Artify - Editor de Imágenes Web
 
-Aplicación web de edición de imágenes con filtros, autenticación de usuarios, API REST, panel administrativo y persistencia en MySQL.
+Editor web con filtros, recorte, redimensionamiento, historial y conversión de formatos. Incluye autenticación por roles, panel administrativo, API REST y persistencia en PostgreSQL.
 
-**Stack:** HTML, CSS, JavaScript, Node.js, Express, MySQL, Git, GitHub.  
-**Repositorio:** https://github.com/Tecno85/artify-personal
+**Stack:** HTML, CSS, JavaScript, Canvas API, Node.js, Express, PostgreSQL, Git, GitHub.
+
+**Repositorio:** https://github.com/Tecno85/artify
+
+**Demo:** https://tecno85.github.io/artify/
 
 ## Formación
 
