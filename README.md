@@ -7,7 +7,7 @@ Portafolio personal como desarrollador de software, donde presento mis proyectos
 ## Sobre mí
 
 Desarrollador enfocado en construir interfaces claras, funcionales y adaptables.
-Trabajo con HTML, CSS, JavaScript, Node.js, PostgreSQL y desarrollo Android con Kotlin.
+Trabajo con HTML, CSS, JavaScript, Node.js, PostgreSQL, desarrollo Android con Kotlin y proyectos de inteligencia artificial aplicada con Python.
 
 Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientadas a una buena experiencia de usuario.
 
@@ -18,6 +18,7 @@ Me interesa crear soluciones bien estructuradas, fáciles de mantener y orientad
 * HTML5 (Semántico y accesible)
 * CSS3 (Custom properties, animaciones, responsive)
 * JavaScript (Vanilla JS con animaciones y efectos interactivos)
+* Python
 * Kotlin
 * Jetpack Compose
 * Node.js
@@ -65,6 +66,18 @@ Editor de imágenes web creado con JavaScript, Canvas API, Node.js, Express y Po
 🔗 Repositorio: https://github.com/Tecno85/artify
 
 🔗 Demo: https://tecno85.github.io/artify/
+
+---
+
+### Pegasus RAG
+
+Asistente de inteligencia artificial desarrollado para el Challenge de Oracle + Alura. Permite consultar documentación empresarial en lenguaje natural, recuperar evidencia relevante y mostrar las fuentes utilizadas en cada respuesta.
+
+**Tecnologías:** Python, Streamlit, RAG, embeddings y Gemini.
+
+🔗 Repositorio: https://github.com/Tecno85/pegasus-rag
+
+🔗 Demo: https://pegasus-rag-tecno85.streamlit.app/
 
 ---
 

@@ -6,19 +6,19 @@
 
     <meta
       name="description"
-      content="Portafolio de Ivan Dario Madrid Daza, desarrollador de software enfocado en frontend, Android, JavaScript, Kotlin, Node.js y PostgreSQL."
+      content="Portafolio de Ivan Dario Madrid Daza, desarrollador de software con proyectos web, Android e inteligencia artificial."
     />
     <meta name="author" content="Ivan Dario Madrid Daza" />
     <meta
       name="keywords"
-      content="Ivan Madrid, software developer, frontend developer, desarrollador frontend, Android, Kotlin, JavaScript, HTML, CSS, Node.js, PostgreSQL, portafolio web"
+      content="Ivan Madrid, software developer, desarrollo web, Android, Kotlin, JavaScript, Python, RAG, inteligencia artificial, Node.js, PostgreSQL, portafolio web"
     />
     <meta name="theme-color" content="#292d34" />
 
     <meta property="og:title" content="Ivan Madrid | Software Developer" />
     <meta
       property="og:description"
-      content="Portafolio de Ivan Dario Madrid Daza, desarrollador de software enfocado en frontend, Android, JavaScript, Kotlin, Node.js y PostgreSQL."
+      content="Portafolio de Ivan Dario Madrid Daza, desarrollador de software con proyectos web, Android e inteligencia artificial."
     />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Portafolio Ivan Madrid" />
@@ -52,7 +52,7 @@
           "url": "https://tecno85.github.io/porfolio/",
           "image": "https://tecno85.github.io/porfolio/assets/img/ivan.webp",
           "jobTitle": "Software Developer",
-          "description": "Desarrollador de software enfocado en frontend y Android.",
+          "description": "Desarrollador de software con proyectos web, Android e inteligencia artificial aplicada.",
           "email": "tecno85@gmail.com",
           "address": {
             "@type": "PostalAddress",
@@ -67,10 +67,13 @@
             "HTML",
             "CSS",
             "JavaScript",
+            "Python",
             "Kotlin",
             "Jetpack Compose",
             "Node.js",
             "PostgreSQL",
+            "RAG",
+            "Gemini",
             "Git"
           ]
         }
@@ -125,7 +128,7 @@
         <div class="contactos">
           <div class="nombre">
             <h1>Ivan Dario Madrid Daza</h1>
-            <p>Software Developer | Frontend | Android</p>
+            <p>Software Developer | Web | Android | IA</p>
           </div>
 
           <div class="ubicacion">
@@ -178,11 +181,12 @@
       <section class="sobre-mi" id="about">
         <h2>Sobre mí</h2>
         <p>
-          Desarrollador frontend enfocado en construir interfaces web claras,
+          Desarrollador de software enfocado en construir soluciones claras,
           funcionales y adaptables. Trabajo con HTML, CSS, JavaScript, Node.js,
-          PostgreSQL y desarrollo Android con Kotlin. Me interesa crear soluciones
-          bien estructuradas, fáciles de mantener y orientadas a una buena
-          experiencia de usuario.
+          PostgreSQL y desarrollo Android con Kotlin; también he desarrollado
+          proyectos de inteligencia artificial aplicada con Python. Me interesa
+          crear soluciones bien estructuradas, fáciles de mantener y orientadas
+          a una buena experiencia de usuario.
         </p>
       </section>
     </header>
@@ -205,6 +209,11 @@
           <li class="herramientas">
             <img src="./assets/icons/js.png" alt="Icono JavaScript" />
             <p>JavaScript</p>
+          </li>
+
+          <li class="herramientas">
+            <img src="./assets/icons/python.svg" alt="Icono Python" />
+            <p>Python</p>
           </li>
 
           <li class="herramientas">
@@ -333,6 +342,56 @@
             class="project-card__image"
             width="300"
             height="219"
+            loading="lazy"
+            decoding="async"
+          />
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__info">
+            <h3>Pegasus RAG</h3>
+            <p>
+              Asistente de inteligencia artificial desarrollado para el
+              Challenge de Oracle + Alura. Permite consultar documentación
+              empresarial en lenguaje natural, recupera evidencia relevante y
+              muestra las fuentes utilizadas en cada respuesta.
+            </p>
+
+            <div
+              class="project-card__tech"
+              aria-label="Tecnologías de Pegasus RAG"
+            >
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>RAG</span>
+              <span>Embeddings</span>
+              <span>Gemini</span>
+            </div>
+
+            <div class="project-card__links">
+              <a
+                href="https://github.com/Tecno85/pegasus-rag"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver repositorio
+              </a>
+              <a
+                href="https://pegasus-rag-tecno85.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Probar aplicación
+              </a>
+            </div>
+          </div>
+
+          <img
+            src="./assets/img/pegasus-rag.webp"
+            alt="Interfaz pública de Pegasus RAG con su base documental lista"
+            class="project-card__image project-card__image--wide"
+            width="800"
+            height="450"
             loading="lazy"
             decoding="async"
           />
