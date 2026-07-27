@@ -74,8 +74,11 @@ No sustituir `porfolio` por `portafolio` dentro de URLs sin confirmar un cambio 
 - Tratar `assets/docs/cv-ivan-madrid.md` como fuente de contenido y mantener el PDF sincronizado.
 - Usar los skills `documents` y `pdf` al regenerar o revisar el PDF.
 - Conservar una sola página A4, enlaces activos, metadatos de título/autor y tipografía profesional.
-- Distribuir el contenido a lo largo de la página con márgenes equilibrados; evitar tanto el amontonamiento como un gran vacío inferior.
+- Cada vez que se agregue, retire o reorganice información, recomponer la distribución completa del CV en lugar de limitarse a anexar contenido.
+- Aprovechar de forma equilibrada toda la altura útil de la página: la última sección debe ocupar la zona inferior prevista y el espacio libre final debe ser visualmente comparable con los márgenes, sin crear un gran vacío inferior.
+- Ajustar primero la síntesis del texto, el espaciado entre secciones, el interlineado y los márgenes; reducir la tipografía solo dentro de límites cómodamente legibles y no estirar contenido de forma artificial.
 - Renderizar el PDF a PNG y revisarlo visualmente antes de finalizar.
+- Rechazar la composición y repetir el ajuste si el render muestra una franja inferior vacía desproporcionada, contenido amontonado, cortes o desequilibrio vertical.
 - No dejar scripts ni imágenes de QA temporales en el repositorio.
 
 ## SEO, accesibilidad y rendimiento
