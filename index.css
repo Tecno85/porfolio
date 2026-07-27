@@ -310,6 +310,11 @@ main h2 {
   height: 140px;
 }
 
+#projects .project-card__image--wide {
+  width: 220px;
+  height: auto;
+}
+
 #education .project-card__image {
   width: 150px;
   height: 90px;
