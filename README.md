@@ -94,8 +94,9 @@ Página web estática para un estudio ficticio de videojuegos, desarrollada como
 ## Formación
 
 * Tecnólogo en Análisis y Desarrollo de Software – SENA
-* Bootcamp de fundamentos de programación y desarrollo de soluciones digitales – Talento Tech (MinTIC)
-* Formación práctica en desarrollo web con HTML, CSS y JavaScript – EGG
+* Bootcamp de Programación Básico (159 horas) – Talento Tech (MinTIC) – [Ver certificado](assets/docs/certificado-talento-tech-programacion-basica.pdf)
+* Bootcamp de Inteligencia Artificial Nivel Básico (159 horas) – Talento Tech (MinTIC) – [Ver certificado](assets/docs/certificado-talento-tech-inteligencia-artificial-nivel-basico.pdf)
+* Formación práctica en desarrollo web con HTML, CSS y JavaScript – EGG – [Ver certificado](assets/docs/certificado-egg.pdf)
 
 ---
 

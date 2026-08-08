@@ -51,9 +51,10 @@ Asistente de inteligencia artificial para consultar documentación empresarial e
 
 ## Formación
 
-Tecnólogo en Análisis y Desarrollo de Software - SENA | En formación  
-Bootcamp de Programación - Talento Tech / MinTIC Colombia | Diciembre 2024  
-Formación en Desarrollo Web - EGG Educación | Noviembre 2024
+- Tecnólogo en Análisis y Desarrollo de Software - SENA | En formación
+- Bootcamp de Inteligencia Artificial Nivel Básico - Talento Tech / MinTIC Colombia | 159 horas | Enero 2026
+- Bootcamp de Programación Básico - Talento Tech / MinTIC Colombia | 159 horas | Diciembre 2024
+- Formación en Desarrollo Web - EGG Educación | Noviembre 2024
 
 ## Idiomas
 
