@@ -14,7 +14,7 @@ const observerOptions = {
 // Observar elementos que queremos animar
 document.addEventListener('DOMContentLoaded', () => {
   const elementsToAnimate = document.querySelectorAll(
-    '.project-card, .herramientas, .sobre-mi'
+    '.project-card, .herramientas, .service-card, .sobre-mi'
   );
 
   if (prefersReducedMotion || !('IntersectionObserver' in window)) {
@@ -62,6 +62,7 @@ window.addEventListener('load', () => {
   const titleElement = document.querySelector('.nombre h1');
   if (titleElement) {
     const originalText = titleElement.textContent;
+    titleElement.setAttribute('aria-label', originalText);
     typeWriter(titleElement, originalText, 80);
   }
 });

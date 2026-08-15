@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="express-title">
+  <title id="express-title">Express</title>
+  <path fill="none" stroke="#111827" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h9c2.8 0 5 1.8 5 4s-2.2 4-5 4H4"/>
+  <path fill="none" stroke="#111827" stroke-linecap="round" stroke-width="2" d="M15 8l5-4M15 16l5 4"/>
+</svg>
