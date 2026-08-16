@@ -175,7 +175,7 @@ Imagen de preview: `assets/img/portfolio-preview.webp`
 ## Estructura de archivos
 
 ```text
-porfolio/
+portafolio/
 ├── .github/workflows/  # Validación automática en GitHub Actions
 ├── index.html          # Página principal
 ├── index.css           # Estilos con animaciones
