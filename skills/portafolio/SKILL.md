@@ -74,13 +74,15 @@ No sustituir `porfolio` por `portafolio` dentro de URLs sin confirmar un cambio 
 - Tratar `assets/docs/cv-ivan-madrid.md` como fuente de contenido y mantener el PDF sincronizado.
 - Usar los skills `documents` y `pdf` al regenerar o revisar el PDF.
 - Conservar una sola página A4, enlaces activos, metadatos de título/autor y tipografía profesional.
+- Mantener el bloque superior del CV centrado: nombre, título profesional, ubicación/correo y la fila `GitHub | LinkedIn | Portafolio`.
+- Incluir el enlace `Portafolio` en la fila superior de contactos y apuntarlo a `https://tecno85.github.io/porfolio/`.
 - Cada vez que se agregue, retire o reorganice información, recomponer la distribución completa del CV en lugar de limitarse a anexar contenido.
 - Aprovechar de forma equilibrada toda la altura útil de la página: la sección final `Idiomas` debe verse completa y quedar cerca de la zona inferior, sin una franja blanca final desproporcionada.
 - Buscar un equilibrio intermedio: el CV no debe verse encogido en la mitad superior ni tan estirado que corte la última sección.
 - Ajustar primero espaciado entre secciones, interlineado, márgenes y tamaños de encabezados; reducir o ampliar la tipografía solo dentro de límites cómodamente legibles y sin inflar contenido.
 - No añadir texto decorativo, estadísticas, porcentajes ni experiencia no verificable para rellenar espacio. El aprovechamiento de página se resuelve con maquetación, no con contenido artificial.
 - Renderizar el PDF a PNG y revisarlo visualmente antes de finalizar. Repetir la composición si `Idiomas` no aparece completo, si queda demasiado vacío inferior, si hay contenido amontonado o si el equilibrio vertical se siente irregular.
-- Verificar después de regenerar: una sola página, enlaces activos, metadatos de título/autor, texto extraíble de la última sección y coherencia con `assets/docs/cv-ivan-madrid.md`.
+- Verificar después de regenerar: una sola página, enlaces activos, metadatos de título/autor, texto extraíble de la última sección, enlace a Portafolio y coherencia con `assets/docs/cv-ivan-madrid.md`.
 - Cuando se comparta el CV publicado, usar la URL pública canónica: `https://tecno85.github.io/porfolio/assets/docs/cv-ivan-madrid.pdf`.
 - No dejar scripts ni imágenes de QA temporales en el repositorio.
 

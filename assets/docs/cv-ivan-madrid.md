@@ -5,6 +5,7 @@
 Valledupar, Colombia | tecno85@gmail.com  
 GitHub: https://github.com/Tecno85  
 LinkedIn: https://www.linkedin.com/in/ivan-dario-madrid/
+Portafolio: https://tecno85.github.io/porfolio/
 
 ## Perfil
 
