@@ -1,6 +1,17 @@
-# Portafolio Web - Ivan Madrid
+# Portafolio profesional — Iván Madrid
 
-Portafolio personal de Ivan Madrid, desarrollador de software enfocado en desarrollo web. Presenta proyectos, tecnologías, formación, hoja de vida y medios de contacto profesional.
+Portafolio profesional de Iván Madrid, desarrollador de software enfocado en desarrollo web. Presenta proyectos, tecnologías, formación, hoja de vida y medios de contacto profesional.
+
+<div align="center">
+
+<img src="./assets/img/portfolio-preview.webp" width="900" alt="Vista previa del portafolio profesional de Iván Madrid">
+
+<a href="https://tecno85.github.io/porfolio/"><strong>Visitar portafolio</strong></a> ·
+<a href="https://github.com/Tecno85">GitHub</a> ·
+<a href="https://www.linkedin.com/in/ivan-dario-madrid/">LinkedIn</a> ·
+<a href="./assets/docs/cv-ivan-madrid.pdf">Descargar CV</a>
+
+</div>
 
 ---
 
