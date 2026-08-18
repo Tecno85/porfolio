@@ -1,4 +1,4 @@
-# Ivan Dario Madrid Daza
+# Iván Darío Madrid Daza
 
 **Desarrollador de software enfocado en desarrollo web**
 
